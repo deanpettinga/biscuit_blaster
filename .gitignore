@@ -1,0 +1,6 @@
+.DS*
+._*
+
+raw_data/*
+biscuit_conda*
+containers*
