@@ -2,7 +2,7 @@ FROM continuumio/miniconda3:latest
 
 # download the latest available precompiled binary version of BISCUIT as
 RUN apt-get update && apt-get install -y \
-		curl \
+		curl &&\
 		curl -OL $(curl -s https://api.github.com/repos/zwdzwd/biscuit/releases/latest | grep browser_download_url | grep linux_amd64 | cut -d '"' -f 4) &&\
 		chmod +x biscuit_* &&\
 		mv biscuit_* /usr/local/bin/ &&\
