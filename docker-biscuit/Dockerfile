@@ -5,7 +5,7 @@ RUN apt-get update -y && \
     apt-get install git -y && \
     apt-get install build-essential -y && \
     apt-get install zlib1g-dev -y && \
-    apt-get install libncurses5-dev -y && \
+    apt-get install libncurses* -y && \
     apt-get install wget -y && \
     
     # intall biscuit
