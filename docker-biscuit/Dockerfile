@@ -21,7 +21,7 @@ RUN apt-get update -y && \
     pigz=2.3.4 \
     snakemake=5.4.4
 
-ADD /*
+ADD .* ./ 
 
 ENV PATH /opt/conda/envs/env/bin:$PATH
 VOLUME [ "/data" ]
