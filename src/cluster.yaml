@@ -1,0 +1,6 @@
+__default__:
+    qname: bbc
+    time: 10:00:00
+    nodes: 1
+    ppn: 40
+    mem: 200gb

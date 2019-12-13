@@ -1,0 +1,11 @@
+meta: src/meta.tsv
+
+# path to genome reference.fa.gz
+# DEFAULT_HUMAN is GRCh38.primary_assembly.genome.fa Release 32
+reference: ""
+threads: ""
+
+lib_type: ""
+sample: ""
+fq1: ""
+fq2: ""

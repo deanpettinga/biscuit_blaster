@@ -1,8 +1,0 @@
-channels:
-  - defaults
-  - conda-forge
-  - bioconda
-dependencies:
-  - pigz=2.3.4
-  - samtools=1.9
-  - samblaster=0.1.24

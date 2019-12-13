@@ -1,0 +1,27 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake cluster file
+
+type: object
+
+properties:
+
+  __default__:
+    type: object
+    properties:
+      qname:
+        type: string
+      time:
+        type: string
+      nodes:
+        type: integer
+      ppn:
+        type: integer
+      mem:
+        type: string
+    required:
+      - qname
+      - time
+      - nodes
+      - ppn
+      - mem

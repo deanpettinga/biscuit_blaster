@@ -1,6 +1,13 @@
 .DS*
 ._*
+.snakemake*
+*.sif
+test*
+raw
 
+analysis/*
+logs/*
+reference/*
 raw_data/*
 biscuit_conda*
 containers*

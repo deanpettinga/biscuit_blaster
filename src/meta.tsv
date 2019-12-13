@@ -1,0 +1,2 @@
+sample	lib_type	unit	fq1	fq2	reference
+wgbs_toy_PE	1	lane1	wgbs_toy_1.fastq.gz	wgbs_toy_2.fastq.gz	GRCh38.primary_assembly.genome.fa

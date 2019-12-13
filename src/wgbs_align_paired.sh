@@ -20,12 +20,15 @@ for i in {0..2}; do
 #PBS -l walltime=120:00:00
 #PBS -l mem=200gb
 #PBS -l nodes=1:ppn=40
-#PBS -M ben.johnson@vai.org
+#PBS -M dean.pettinga@vai.org
 #PBS -m abe
-#PBS -N align
+#PBS -N biscuit
+
+# load biscuit
+module load bbc/biscuit/biscuit_0_3_12_linux_amd64
 
 #Change to WGBS directory
-cd /secondary/projects/triche/ben_projects/biscuit_manuscript/analysis/biscuit_colon
+cd /secondary/projects/bbc/tools/dean_workflows/biscuit_blaster
 
 #these are directional libs
 #Launch biscuit
