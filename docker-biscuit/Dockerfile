@@ -18,7 +18,8 @@ RUN apt-get update -y && \
     conda create -n env -c bioconda -c conda-forge -c defaults python=3.6 \
 	samblaster=0.1.24 \
 	samtools=1.9 \
-	pigz=2.3.4
+	pigz=2.3.4 \
+	snakemake=5.4.4 \
 
 ENV PATH /opt/conda/envs/env/bin:$PATH
 VOLUME [ "/data" ]
